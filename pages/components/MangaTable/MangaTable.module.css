@@ -1,0 +1,29 @@
+.table {
+	border: 1px solid var(--accent-color);
+	margin: 0 auto;
+}
+
+.headerRow {
+	border-bottom: 1px solid var(--accent-color-light);
+	background-color: var(--accent-color);
+}
+
+.header {
+	font-weight: bold;
+	font-size: 14px;
+	user-select: none;
+	padding: 4px 10px;
+	text-align: center;
+}
+
+.header.sortable:hover {
+	text-decoration: underline;
+}
+
+.header.sortable {
+	cursor: pointer;
+}
+
+.header.sorted {
+	font-style: italic;
+}

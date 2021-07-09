@@ -1,0 +1,35 @@
+.header {
+	height: 80px;
+	border-bottom: 1px solid #888;
+	display: flex;
+}
+
+.left {
+	flex-grow: 1;
+	align-self: center;
+}
+
+.logo {
+	font-size: 20px;
+	font-weight: 700;
+	margin-left: 30px;
+}
+
+.right {
+	flex-basis: 200px;
+	align-self: center;
+}
+
+.addSeries {
+	cursor: pointer;
+	padding: 10px 15px;
+	font-size: 16px;
+	background-color: var(--button-color);
+	color: #fff;
+	border: none;
+}
+
+.addSeries:active {
+	position: relative;
+	top: 1px;
+}

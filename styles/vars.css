@@ -1,0 +1,17 @@
+:root {
+	--bg-color-main: #181820;
+	--bg-color-dark: #020204;
+	--bg-color-light: #212126;
+	--bg-color-lighter: #28282b;
+	--bg-color-lightest: #333336;
+
+	--text-color: #f6f6f6;
+	--text-color-alt: #b3b3b3;
+	--text-color-link: #888899;
+	--text-color-link-hover: #aaaabb;
+
+	--accent-color-light: #404042;
+	--accent-color: #28282a;
+
+	--button-color: #444455;
+}

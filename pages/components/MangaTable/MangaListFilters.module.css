@@ -1,0 +1,23 @@
+.filtersContainer {
+	text-align: center;
+	font-size: 14px;
+}
+
+.filters {
+	margin: 6px;
+	padding: 3px 12px;
+	background-color: var(--bg-color-lighter);
+	border: 1px solid var(--accent-color-light);
+	border-radius: 20px;
+	display: inline-block;
+	user-select: none;
+}
+
+.filtersText {
+	font-weight: bold;
+}
+
+.filters input,
+.filters label {
+	cursor: pointer;
+}
