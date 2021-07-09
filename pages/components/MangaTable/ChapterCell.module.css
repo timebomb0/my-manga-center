@@ -21,22 +21,8 @@
 	display: inline-block;
 	font-size: 16px;
 	padding: 0 6px;
-	background-color: var(--button-color);
-	color: var(--text-color);
-	border: none;
-}
-
-.btn:active {
-	position: relative;
-	top: 1px;
 }
 
 .editingInput {
-	font-size: 14px;
 	width: 60px;
-	border: 0;
-	padding: 2px 4px 2px;
-	border-radius: 10px;
-	color: var(--text-color-alt);
-	background-color: var(--bg-color-dark);
 }

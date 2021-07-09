@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import styles from './MangaListFilters.module.css';
 
 function MangaListFilters({ onFilterChange }) {

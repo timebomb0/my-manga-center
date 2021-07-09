@@ -5,9 +5,9 @@ function Modal({ children, onClose }) {
 		<>
 			<div className={styles.overlay} onClick={onClose}></div>
 			<div className={styles.modal}>
-				<button onClick={onClose} className={styles.closeBtn}>
+				<div onClick={onClose} className={styles.closeBtn}>
 					X
-				</button>
+				</div>
 				{children}
 			</div>
 		</>

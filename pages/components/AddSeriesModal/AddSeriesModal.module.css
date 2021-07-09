@@ -1,10 +1,6 @@
 .saveBtn {
-	cursor: pointer;
 	padding: 6px 20px;
 	font-size: 16px;
-	background-color: var(--button-color);
-	color: #fff;
-	border: none;
 	margin-left: auto;
 }
 
@@ -28,9 +24,5 @@
 .form > fieldset > input {
 	flex: 1 0 300px;
 	padding: 6px 10px;
-	border-radius: 0;
-	border: 1px solid var(--accent-color);
-	background-color: var(--bg-color-light);
-	color: var(--text-color);
 	border-radius: 20px;
 }

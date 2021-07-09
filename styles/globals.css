@@ -11,6 +11,32 @@ a:hover {
 	color: var(--text-color-link-hover);
 }
 
+button {
+	cursor: pointer;
+	background-color: var(--button-color);
+	color: var(--text-color);
+	border: none;
+}
+
+button:active {
+	position: relative;
+	top: 1px;
+}
+
+button:hover {
+	background-color: var(--button-color-hover);
+}
+
+input {
+	font-size: 14px;
+	border: 0;
+	padding: 2px 4px 2px;
+	border-radius: 20px;
+	color: var(--text-color-alt);
+	background-color: var(--bg-color-dark);
+	border: 1px solid var(--accent-color);
+}
+
 html,
 body,
 #__next {
