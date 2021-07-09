@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { Page } from './components/layout';
-import { MangaTable, MangaListFilters } from './components/MangaTable';
-import useMangaList from './hooks/useMangaList';
+import { Page } from '../components/layout';
+import { MangaTable, MangaListFilters } from '../components/MangaTable';
+import useMangaList from '../hooks/useMangaList';
 
 function MangaList() {
 	const { items, isLoading, isError } = useMangaList();

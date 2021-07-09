@@ -21,6 +21,19 @@ function AddSeriesModal({ onClose }) {
 		};
 	};
 
+	const handleSave = async (event) => {
+		event.preventDefault();
+		await fetch('/api/manga/add', {
+			method: 'POST',
+			body: JSON.stringify({
+				title,
+				chapterReadNum,
+				chapterTotalNum,
+				seriesLink,
+			}),
+		});
+	};
+
 	return (
 		<Modal onClose={onClose}>
 			<form className={styles.form}>
@@ -35,7 +48,7 @@ function AddSeriesModal({ onClose }) {
 					/>
 				</fieldset>
 				<fieldset>
-					<label htmlFor="chapterReadNum">Chapter # You're Reading:</label>
+					<label htmlFor="chapterReadNum">Chapter # You&apos;re Reading:</label>
 					<input
 						type="text"
 						name="chapterReadNum"
@@ -64,7 +77,7 @@ function AddSeriesModal({ onClose }) {
 						onChange={handleChange('seriesLink')}
 					/>
 				</fieldset>
-				<button className={styles.saveBtn} type="submit">
+				<button className={styles.saveBtn} onClick={handleSave}>
 					Add
 				</button>
 			</form>

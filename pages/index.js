@@ -1,6 +1,10 @@
-import Head from 'next/head';
-import Image from 'next/image';
+import Link from 'next/link';
+import { Page } from '../components/layout';
 
 export default function Home() {
-	return <div></div>;
+	return (
+		<Page>
+			<Link href="/mangaList">Go To Manga List</Link>
+		</Page>
+	);
 }

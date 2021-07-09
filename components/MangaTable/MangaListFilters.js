@@ -14,7 +14,7 @@ function MangaListFilters({ onFilterChange }) {
 					name="hideUpToDate"
 					value="hideUpToDate"
 				/>
-				<label htmlFor="hideUpToDate"> Hide series I'm up-to-date with</label>
+				<label htmlFor="hideUpToDate"> Hide series I&apos;m up-to-date with</label>
 			</div>
 		</div>
 	);
